@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button,
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+}
+
+body,
+input,
+button,
+textarea {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+section h3 {
+    font-size: 22px;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.container #hinocolorado {
+    background-color: #fff;
+    color: black;
+    margin-left: 35px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header h1 {
+    margin-right: auto;
+}
+
+header img {
+    height: 55px;
+    margin-right: 18px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .picture {
+    width: 550px;
+    margin-right: 16px;
+}
+
+section h2 {
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section .listatitulos li img {
+    height: 60px;
+}
+
+section .listatitulos li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.container p {
+    padding: 16px 0;
+}
+
+.container .audio {
+    display: inline-flex;
+}
+
+.social-links img {
+    height: 30px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#contactmoment .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contactmoment h2 {
+    margin-bottom: 25px;
+}
+
+#contactmoment p {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+    height: 125px;
+}
+
+footer {
+    background-color: #ff0000;
+    color:#fff;
+}
+
+form button {
+    background-color: #ff0000;
+    border: none;
+    height: 42px;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8b0b0b;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #8b0b0b;
+}
+
+.contact ul {
+    margin-top: 15px;
+    margin-left: 3px;
+}
